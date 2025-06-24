@@ -1,0 +1,170 @@
+*{
+  font-family: "ubuntu", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #F4EBD3;
+}
+header{
+  background-color: #555879;
+}
+.logo{
+  color: white;
+}
+.container{
+  padding: 0 50px 0 50px;
+  margin: 0 auto;
+  height: 70px;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+.nav-links a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.nav-links a:hover{
+  color: black;
+}
+.hero-section{
+  text-align: center;
+  background-color: #98A1BC;
+  color: white;
+  padding: 90px 0;
+}
+.hero-section h1{
+  font-size: 70px;
+}
+.hero-section p{
+  font-size: 20px;
+}
+.hero-section a{
+  border: 2px;
+} 
+.hero-section .text .links a{
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 5px 10px;
+  background-color: rgb(173, 130, 130);
+  color: black;
+  text-decoration: none;
+ }
+.hero-section .text .links a:hover{
+  color: blue;
+}
+.hero-section .headshot{
+  flex: 2px;
+  display: flex;
+  justify-content: center;
+}
+.hero-section .headshot img{
+  width: 250px;
+  border-radius: 50%;
+  padding-top: 30px;
+}
+.about-section{
+  padding: 40px 20px;
+ 
+}
+.textarea {
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+.project-section{
+  padding: 20px 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+table, th, td{
+  border: 1px solid;
+  border-color: black;
+  padding: 15px 15px;
+}
+table{
+  width: 100%;
+}
+th{
+  height: 10px;
+}
+table a{
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 5px 5px;
+  color: white;
+  background-color: #98A1BC;
+}
+table a:hover{
+  color: blue;
+}
+.contact-section{
+  padding: 60px 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.contact-section h2{
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+.contact-section form{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.contact-section label{
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.contact-section input,
+.contact-section textarea{
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.btn {
+  align-self: center;
+  background-color: #22ad7a;
+  border: 1px solid black;
+  border-radius: 14px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.btn:hover {
+  background-color: #0056b3;
+}
+footer {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 25px 0;
+  margin-top: 10px;
+}
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  color: white;
+  margin: 0 10px;
+  font-size: 1.2rem;
+}
